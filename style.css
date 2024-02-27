@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+.componentsafter{
+    text-align: center;  
+}
+@tailwind utilities;
+@layer utilities{
+.btn 
+    {
+        @apply text-white bg-black rounded-xl px-2 py-1;
+    }
+}
